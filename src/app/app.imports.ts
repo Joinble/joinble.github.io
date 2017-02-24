@@ -16,5 +16,5 @@ export const APP_IMPORTS: Array<any> = [
     StoreDevtoolsModule.instrumentOnlyWithExtension({
         maxAge: 5
     }),
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, {useHash: true})
 ];
